@@ -1,0 +1,27 @@
+:root {
+  --margin: 0.3rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-size: calc(var(--margin) * 4);
+  margin: var(--margin);
+  padding: var(--margin) calc(var(--margin) * 2);
+}
+
+.primary {
+  background: green;
+}
+
+.danger {
+  background: red;
+}
+
+.secondary {
+  background: blue;
+}
+
+.custom {
+  background: yellow;
+}
